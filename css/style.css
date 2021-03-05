@@ -1,0 +1,37 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #ddf5f7;
+	color: #ddf5f7;
+}
+
+.quote {
+	width: 40%;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	margin-bottom: 6.25rem;
+	padding: 1rem 3rem;
+}
+
+.quote-bg {
+	background-color: #44679f;
+}
+
+.btn {
+	font-size: 1rem;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	padding: 1rem 2rem;
+	background-color: #fecea8;
+	color: #45171d;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+}
+
+.btn:focus {
+	box-shadow: 0px 0px 5px #000;
+}
